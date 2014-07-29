@@ -1,11 +1,12 @@
 package sawyer
 
 import (
-	"github.com/lostisland/go-sawyer/mediaheader"
-	"github.com/lostisland/go-sawyer/mediatype"
 	"io/ioutil"
 	"net/http"
 	"net/url"
+
+	"github.com/jingweno/go-sawyer/mediaheader"
+	"github.com/jingweno/go-sawyer/mediatype"
 )
 
 type Request struct {

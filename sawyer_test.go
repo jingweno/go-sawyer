@@ -1,10 +1,11 @@
 package sawyer
 
 import (
-	"github.com/bmizerany/assert"
-	"github.com/lostisland/go-sawyer/hypermedia"
 	"net/url"
 	"testing"
+
+	"github.com/bmizerany/assert"
+	"github.com/jingweno/go-sawyer/hypermedia"
 )
 
 var endpoints = map[string]map[string]string{

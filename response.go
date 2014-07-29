@@ -2,9 +2,10 @@ package sawyer
 
 import (
 	"errors"
-	"github.com/lostisland/go-sawyer/mediaheader"
-	"github.com/lostisland/go-sawyer/mediatype"
 	"net/http"
+
+	"github.com/jingweno/go-sawyer/mediaheader"
+	"github.com/jingweno/go-sawyer/mediatype"
 )
 
 type Response struct {

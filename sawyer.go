@@ -2,11 +2,12 @@ package sawyer
 
 import (
 	"encoding/json"
-	"github.com/lostisland/go-sawyer/mediatype"
 	"io"
 	"net/http"
 	"net/url"
 	"strings"
+
+	"github.com/jingweno/go-sawyer/mediatype"
 )
 
 // The default httpClient used if one isn't specified.

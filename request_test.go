@@ -2,12 +2,13 @@ package sawyer
 
 import (
 	"encoding/json"
-	"github.com/bmizerany/assert"
-	"github.com/lostisland/go-sawyer/mediatype"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
+
+	"github.com/bmizerany/assert"
+	"github.com/jingweno/go-sawyer/mediatype"
 )
 
 func TestSuccessfulGet(t *testing.T) {
